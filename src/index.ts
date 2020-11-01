@@ -1,5 +1,6 @@
-import ScrollbarSize from './ScrollbarSize';
-
-export type { ScrollbarSizeChangeHandlerParams, ScrollbarSizeProps } from './ScrollbarSize';
-
+import ScrollbarSize, {
+	ScrollbarSizeChangeHandlerParams,
+	ScrollbarSizeProps,
+} from './ScrollbarSize';
+export { ScrollbarSizeChangeHandlerParams, ScrollbarSizeProps };
 export default ScrollbarSize;
